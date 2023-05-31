@@ -46,25 +46,52 @@ $type-size-8                : 0.625em;  // ~10px
 /*
    Colors
    ========================================================================== */
-
+//   60% #000 + 40% #7a8288
 $gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
-
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$dark-gray                  : mix(#000, $gray, 40%); //#494e52
+$darker-gray                : mix(#000, $gray, 60%); //#313436
+$light-gray                 : mix(#fff, $gray, 50%); //#bdc0c4
+$lighter-gray               : mix(#fff, $gray, 90%); //#f2f2f3
 
 $primary-color              : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
 $info-color                 : #52adc8;
+
+:root
+{
+   background-color      : #fff;
+   --body-color            : #fff;
+   --code-background-color : #fafafa;
+   --text-color            : #494e52;
+   --border-color          : #f2f3f3;
+   --figcaptioncolor       : #777a7d //mix(#fff, $dark-gray, 25%);
+   --footer-background-color : #f2f3f3;
+   --masthead-link-color     : $primary-color;
+   --masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+}
+.dark-theme
+{
+   background-color      : #494e52;
+   --body-color            : #494e52;
+   --code-background-color : #494e52;
+   --text-color            : #f2f2f3;
+   --border-color          : #fff;
+   --figcaptioncolor       : #8e9093//mix(#000, $light-gray, 25%);
+   --footer-background-color : #313436;
+   --masthead-link-color     : #fff;
+   --masthead-link-color-hover  : #6e757a; //mix(#000, $primary-color, 10%);
+}
+
+
+$body-color                 : var(--body-color);
+$background-color           : var(background-color);
+$code-background-color      : var(--code-background-color);
+$code-background-color-dark : $light-gray;
+$text-color                 : var(--text-color);
+$border-color               : var(--border-color);
+$footer-background-color    : var(--footer-background-color);
 
 /* brands */
 $behance-color              : #1769FF;
@@ -93,8 +120,8 @@ $xing-color                 : #006567;
 $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color        : var(--masthead-link-color);
+$masthead-link-color-hover  : var(--masthead-link-color-hover);
 
 
 /*

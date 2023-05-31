@@ -28,6 +28,10 @@ See more info at https://academicpages.github.io/
     - To run from another address (i.e if you wanted to run it on the local network so other local devices can access), additionally pass `--host [local-ip-address]`
     - If you get an error, try `bundle add webrick` and then repeat the previous step to attempt to serve it again
 
+1. If you want to change any javascript you will need to build it first. To build:
+    - Install uglify with `npm install uglify-js -save--dev`
+    - Build it with `npm run build:js`
+
 # Changelog -- bugfixes and enhancements
 
 There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
@@ -39,4 +43,4 @@ To support this, all changes to the underlying code appear as a closed issue wit
 # Deleted/Hidden pages
 
 1. Portfolio, Blog & Guide - I had no idea what to put in it so I hid it.
-to unhide simply uncomment out line in _data/navigation.yml
+to unhide simply uncomment out line in _data/navigation.yml - They still appear in the sitemap

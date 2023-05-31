@@ -23,20 +23,20 @@ Employment
   * Modules Demonstrated: 
     * SPA4601 - Professional Skills for Scientists
     * SPA5131 - Practical Techniques for Data Science
-  * Duties included: Supporting students
 
 * Jan 2022 to September 2022: Software Engineer
   * Siemens Industry Software
-  * Duties included: 
 
   
 Skills
 ======
 * Particle Physics
+* Mathematics
 * Programming
   * C++
   * Python
   * Java
+  * JavaScript
 * Monte Carlo simulation
 
 Publications
