@@ -62,6 +62,7 @@ $info-color                 : #52adc8;
 :root
 {
    background-color      : #fff;
+   --background-color      : #fff;
    --body-color            : #fff;
    --code-background-color : #fafafa;
    --text-color            : #494e52;
@@ -74,6 +75,7 @@ $info-color                 : #52adc8;
 .dark-theme
 {
    background-color      : #494e52;
+   --background-color      : #494e52;
    --body-color            : #494e52;
    --code-background-color : #494e52;
    --text-color            : #f2f2f3;
