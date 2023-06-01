@@ -66,11 +66,6 @@ function DarkOrLightMode(darkMode){
 (function () {
   if (getCookie("theme")=="dark"){
     DarkOrLightMode(true);
-    console.log("Mmm cookies")
-  }
-  else
-  {
-    console.log("Awwwh no cookies :(")
   }
 })()
 
@@ -115,9 +110,5 @@ $(document).ready(function(){
     });
 });
 
-function test(){
-    console.log("Test2");
-
-}
 
 
