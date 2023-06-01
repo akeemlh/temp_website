@@ -10,12 +10,12 @@ function setCookie(cname, cvalue, exdays) {
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
-// Delete cookie
+// Delete cookie - set expiration in past so cookie is removed immediately when this session ends
 function deleteCookie(cname) {
-  const d = new Date();
-  d.setTime(d.getTime() + (24*60*60*1000));
-  var expires = "expires="+ d.toUTCString();
-  document.cookie = cname + "=;" + expires + ";path=/";
+  if (getCookie("user_cookie_consent")!="")
+  {
+    document.cookie = cname + "=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/";
+  }
 }
 
 // Read cookie
@@ -54,7 +54,6 @@ function DarkOrLightMode(darkMode){
   if (darkMode)
   {
     document.documentElement.className = 'dark-theme';
-    const footer = document.getElementById('footer');
     darkmode=true
   }
   else
