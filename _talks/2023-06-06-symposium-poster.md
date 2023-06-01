@@ -6,7 +6,7 @@ permalink: /talks/2023-06-06-symposium-poster
 excerpt: "I plan to present a poster at the upcoming Queen Mary PhD symposium describing my contributions to the data preservation efforts at MINERνA"
 venue: "(Upcoming) QMUL PhD Symposium"
 date: 2023-06-06
-location: "Queen Mary University of London"
+location: "Mile End Campus, Queen Mary University of London"
 ---
 
 I plan to present a poster at the upcoming Queen Mary PhD symposium describing my contributions to the data preservation efforts at MINERνA <!-- (NOTE TO SELF: PUT THE POSTER REFERENCES HERE). -->
