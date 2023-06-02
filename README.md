@@ -42,5 +42,10 @@ To support this, all changes to the underlying code appear as a closed issue wit
 
 # Deleted/Hidden pages
 
-1. Portfolio, Blog & Guide - I had no idea what to put in it so I hid it.
-to unhide simply uncomment out line in _data/navigation.yml - They still appear in the sitemap
+1. Portfolio, Blog & Guide - I had no idea what to put in them
+## To hide a page:
+1. Comment out line in _data/navigation.yml to hide page from navigation menu
+2. Add 'hidden: true' to page properties (Top of file, may to have wrap in --- and --- to work if not already there) to hide page from sitemap
+
+## To unhide a page:
+1. Just do the inverse of the above
