@@ -83,7 +83,8 @@ author:
   name             : "Akeem Hart"
   avatar           : "profile.png"
   bio              : "PhD Physics student at Queen Mary University of London, working with the DUNE and MINERνA neutrino experiments"
-  location         : "London, UK"
+  location         : "Queen Mary University of London, UK"
+  locationurl      : "https://www.qmul.ac.uk/spcs/staff/research-students/profiles/hart-akeem.html"
   employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
