@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-A pdf version of this CV can be downloaded [here](http://akeemlh.github.io/files/cv.pdf) (Last Updated: 6/Oct/2023)
+A pdf version of this CV can be downloaded [here](/files/cv.pdf) (Last Updated: 5/June/2023)
 
 Education
 ======
@@ -18,20 +18,22 @@ Education
 
 Employment
 ======
-* Jan 2023 to Present: Module Demonstrator
-  * Queen Mary University of London
+* Jan 2023 to Present: Module Demonstrator @ Queen Mary University of London
   * Modules Demonstrated: 
     * SPA4601 - Professional Skills for Scientists
     * SPA5131 - Practical Techniques for Data Science
 
-* Jan 2022 to September 2022: Software Engineer
-  * Siemens Industry Software
-
+* Jan 2022 to September 2022: Software Engineer @ Siemens Industry Software
+  * Skills:
+    * C++
+    * Cloud Development & Deployment
+    * Java
+    * CAD Software
   
 Skills
 ======
 * Particle Physics
-* Mathematics
+* Statistics
 * Programming
   * C++
   * Python
