@@ -3,13 +3,13 @@ title: "MINERνA Data Preservation: Enabling Muon Fuzz Analysis"
 collection: talks
 type: "Poster"
 permalink: /talks/2023-08-10-inss-poster
-excerpt: "This poster was presented at the 14th International Neutrino Summer School hosted at Fermilab in August 2023"
+excerpt: "This poster was presented at the 14th International Neutrino Summer School hosted at Fermilab in August 2023. It describes my contributions to data preservation efforts at MINERvA"
 venue: "14th International Neutrino Summer School"
 date: 2023-06-06
 location: "Wilson Hall, Fermilab, Illinois, United States"
 ---
 
-This poster was presented at the 14th International Neutrino Summer School hosted at Fermilab in August 2023.<!-- (NOTE TO SELF: PUT THE POSTER REFERENCES HERE). -->
+This poster was presented at the 14th International Neutrino Summer School hosted at Fermilab in August 2023. It describes my contributions to data preservation efforts at MINERvA.<!-- (NOTE TO SELF: PUT THE POSTER REFERENCES HERE). -->
 
 References mentioned in poster:
 
