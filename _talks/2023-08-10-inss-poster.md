@@ -5,7 +5,7 @@ type: "Poster"
 permalink: /talks/2023-08-10-inss-poster
 excerpt: "This poster was presented at the 14th International Neutrino Summer School hosted at Fermilab in August 2023. It describes my contributions to data preservation efforts at MINERvA"
 venue: "14th International Neutrino Summer School"
-date: 2023-06-06
+date: 2023-08-10
 location: "Wilson Hall, Fermilab, Illinois, United States"
 ---
 
