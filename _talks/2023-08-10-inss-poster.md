@@ -11,6 +11,10 @@ location: "Wilson Hall, Fermilab, Illinois, United States"
 
 This poster was presented at the 14th International Neutrino Summer School hosted at Fermilab in August 2023. It describes my contributions to data preservation efforts at MINERvA.<!-- (NOTE TO SELF: PUT THE POSTER REFERENCES HERE). -->
 
+<br/><a href = '/files/FermilabSummerSchoolPoster.pdf'><img src='/files/FermilabSummerSchoolPoster.png' alt='Poster presented at the 2023 International Summer School poster session' width = '500'></a><br>
+
+[PDF](/files/FermilabSummerSchoolPoster.pdf)
+
 References mentioned in poster:
 
 [[1] Aliaga, L et al. (MINERvA Collaboration), Design, calibration, and performance of the MINERvA detector, Nucl. Instrum. Methods Phys. Res., Sect. A 743, 130 (2014).​](https://arxiv.org/pdf/1305.5199)
@@ -20,7 +24,3 @@ References mentioned in poster:
 [[3] Ren, L. Measurement of Neutrino and Antineutrino Total Charged-current Cross Sections on Carbon with MINERvA.  Doctoral Dissertation, University of Pittsburgh.  (2017)​](http://d-scholarship.pitt.edu/31416/)
 
 [[4] Roy, N. Measurement of antineutrino elastic scattering on free protons in the MINERνA experiment. Presentation. Canadaian Assosciation of Physicists. (2023)](https://indico.cern.ch/event/1191895/contributions/5333558/attachments/2670614/4629426/CAP_MINERvA_scattering_free_nucleon.pdf)
-
-<br/><a href = '/files/FermilabSummerSchoolPoster.pdf'><img src='/files/FermilabSummerSchoolPoster.png' alt='Poster presented at the 2023 International Summer School poster session' width = '500'></a><br>
-
-[PDF](/files/FermilabSummerSchoolPoster.pdf)
