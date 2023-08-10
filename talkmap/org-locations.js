@@ -1,22 +1,12 @@
 var addressPoints = [
   [
-    "Berkeley CA, USA",
-    37.8708393,
-    -122.2728638
+    "Queen Mary University of London, Mile End, London, United Kingdom",
+    51.5247272,
+    -0.03931034663016243
   ],
   [
-    "London, UK",
-    51.5073219,
-    -0.1276473
-  ],
-  [
-    "San Francisco, California",
-    37.7792808,
-    -122.4192362
-  ],
-  [
-    "Los Angeles, CA",
-    34.0543942,
-    -118.2439408
+    "Wilson Hall, Fermilab, Illinois, United States",
+    41.83825925,
+    -88.26171241235335
   ]
 ];
