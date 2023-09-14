@@ -1,10 +1,5 @@
 var addressPoints = [
   [
-    "Lady Margaret Hall, Oxford, United Kingdom",
-    51.76568035,
-    -1.2529776819677187
-  ],
-  [
     "Queen Mary University of London, Mile End, London, United Kingdom",
     51.5247272,
     -0.03931034663016243
@@ -13,6 +8,11 @@ var addressPoints = [
     "University of Chicago, Chicago, Illinois, United States",
     41.784977,
     -87.5905237123017
+  ],
+  [
+    "Lady Margaret Hall, Oxford, United Kingdom",
+    51.76568035,
+    -1.2529776819677187
   ],
   [
     "Wilson Hall, Fermilab, Illinois, United States",
