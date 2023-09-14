@@ -18,7 +18,10 @@ Education
 
 Employment
 ======
-* Jan 2023 to Present: Module Demonstrator @ Queen Mary University of London
+* Sep 2023 to Present: Software Developer @ PPCL
+  * New job - I will fill in this section in time
+
+* Jan 2023 to May 2023: Module Demonstrator @ Queen Mary University of London
   * Modules Demonstrated: 
     * SPA4601 - Professional Skills for Scientists
     * SPA5131 - Practical Techniques for Data Science
