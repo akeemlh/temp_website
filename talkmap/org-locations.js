@@ -1,13 +1,18 @@
 var addressPoints = [
   [
     "Queen Mary University of London, Mile End, London, United Kingdom",
-    51.5247272,
-    -0.03931034663016243
+    51.52492685,
+    -0.03924405317429028
+  ],
+  [
+    "King's College London, London, United Kingdom",
+    51.5060001,
+    -0.1121582948025203
   ],
   [
     "University of Chicago, Chicago, Illinois, United States",
-    41.784977,
-    -87.5905237123017
+    41.79139685,
+    -87.60084387193544
   ],
   [
     "Lady Margaret Hall, Oxford, United Kingdom",
