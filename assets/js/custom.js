@@ -69,16 +69,51 @@ function DarkOrLightMode(darkMode){
   }
 })()
 
+function toggleTheme() {
+  var cookie_consent = getCookie("user_cookie_consent");
+  if(cookie_consent != ""){
+      document.getElementById("cookieNotice").style.display = "none";
+      cookiesAccepted=true;
+  }else{
+      document.getElementById("cookieNotice").style.display = "block";
+      cookiesAccepted=false;
+  }
+  if(cookiesAccepted)
+  {
+    if (document.getElementById("ThemeToggleImg").getAttribute("status") == "day")
+    {
+      DarkOrLightMode(true);
+      setCookie("theme", 'dark', "30");
+      document.getElementById("ThemeToggleImg").setAttribute("status", "night");
+      document.getElementById("ThemeToggleImg").src="/images/sun-icon.png";
+    }
+    else
+    {
+      DarkOrLightMode(false);
+      deleteCookie("theme");
+      document.getElementById("ThemeToggleImg").setAttribute("status", "day");
+      document.getElementById("ThemeToggleImg").src="/images/moon-icon.png";
+    }
+  }
+  else
+  {
+    DarkOrLightMode(false);
+    document.getElementById("ThemeToggleImg").src="/images/moon-icon.png";
+  }
+}
+
 $(document).ready(function(){
   
     //const body = document.querySelector('body');
     if (darkmode)
     {
       $('#theme_switch').prop("checked", true);
+      document.getElementById("ThemeToggleImg").src="/images/sun-icon.png";
     }
     else
     {
       $('#theme_switch').prop("checked", false);
+      document.getElementById("ThemeToggleImg").src="/images/moon-icon.png";
     }
     $('#theme_switch').change(function() {
       var cookie_consent = getCookie("user_cookie_consent");
@@ -101,14 +136,14 @@ $(document).ready(function(){
           DarkOrLightMode(false);
           deleteCookie("theme");
         }
+        document.getElementById("ThemeToggleImg").src="/images/sun-icon.png";
       }
       else
       {
         DarkOrLightMode(false);
         $('#theme_switch').prop("checked", false);
+        document.getElementById("ThemeToggleImg").src="/images/moon-icon.png";
       }
     });
 });
-
-
 

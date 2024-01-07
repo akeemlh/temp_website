@@ -1,3 +1,8 @@
+<script src="assets/js/custom.js"></script>
+ <div class="ThemeToggle">
+  <img src="/images/moon-icon.png" id="ThemeToggleImg" class="ImgToggle" width="50" height="50" onclick="toggleTheme();" status="day" align="right" alt="toggle light/dark mode" title="Toggle light/dark theme"/>
+</div>
+
 {% include base_path %}
 
 <div class="page__footer-follow">
@@ -20,9 +25,11 @@
     <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
   </ul>
 </div>
-Toggle Dark Mode (Requires cookies):<br>
+<!--Toggle Dark Mode (Requires cookies):<br>
+
+
 <label class="switch" id="theme_switch1">
   <input type="checkbox" id="theme_switch">
   <span class="slider round" id="theme_switch2"></span>
-</label>
+</label> -->
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
