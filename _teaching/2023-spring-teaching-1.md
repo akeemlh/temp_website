@@ -13,4 +13,4 @@ Modules demonstrated:
 * SPA4601 - Professional Skills for Scientists
     * Assisted in teaching beginner level Python to 1st year physics and chemisty students
 * SPA5131 - Practical Techniques for Data Science
-    * Assited in teaching beginner level data science techniques in R and Python to 2rd year physics students
+    * Assited in teaching beginner level data science techniques in R and Python to 2rd year physics students 
