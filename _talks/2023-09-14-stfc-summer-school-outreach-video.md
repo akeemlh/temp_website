@@ -10,6 +10,7 @@ location: "Lady Margaret Hall, Oxford, United Kingdom"
 ---
 
 This video was made and submitted as part of an outreach competition held at the 2023 STFC HEP Summer School, hosted at Lady Margaret Hall, Oxford in September 2023. It provides a brief description of neutrinos, some of their interactions in matter and the MINERvA experiment in a format intended to be accessible to the wider public.
+For this video, I won the summer school outreach prize. 
 
 <video width="640" height="360" controls="controls autoplay">
   <source src="/files/OutreachVideoMedQuality.mp4" type="video/mp4">
