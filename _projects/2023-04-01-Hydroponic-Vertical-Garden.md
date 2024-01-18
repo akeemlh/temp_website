@@ -14,16 +14,16 @@ Lines were cut into 100mm diameter 1m length PVC pipe; 3 5cm lines, equally spac
 ## PCB Manufacture
 The PCB was made from double sided copper clad fibreglass board using photoresist dry film and liquid solder resist. The method used was based on [this instructable](https://www.instructables.com/PCB-Etching-prototyping/). Vias were made from copper rivets. The process is described in depth [here](/projects/2023-05-01-Making-PCB-at-Home).
 <br/>
-<img src='/images/hydroponicsPCB3.jpg' alt='Printed Circuit Board' width = '350'>
-<img src='/images/hydroponicsPCB2.jpg' alt='Printed Circuit Board' width = '350'>
-<img src='/images/hydroponicsPCB1.jpg' alt='Printed Circuit Board' width = '350'>
+<img src='images/hydroponicsPCB3.jpg' alt='Printed Circuit Board' width = '350'>
+<img src='images/hydroponicsPCB2.jpg' alt='Printed Circuit Board' width = '350'>
+<img src='images/hydroponicsPCB1.jpg' alt='Printed Circuit Board' width = '350'>
 
 ## ESP32 software
 The software behind this project will be uploaded later (NTS: Make sure no personal info like WiFi passwords first). The ESP32 connects to my home WiFi and at 15 minute intervals reads the temperature, humidity and water level within the hydroponic tower and submits this into a google spreadsheet using HTML POST methods and and a google script, then it enters deep sleep mode to conserve energy. At predetermined intervals (Every 2 wake cycles/30 mins during the day and 4 wake cylcles/60 mins at night), the ESP32 flips an electomechanical relay activating a 12v 5W pump for 60 seconds circulating the nutrient bath around the tower. The software is loaded onto the ESP32-WROOM module before being soldered to the PCB using a programmer board, after which all future updates are performed OTA, with the ESP32 module checking for any new software versions everytime it wakes.
 
 # Plants
 The system was initially filled with Basil (See image), but is now filled with Lettuce, Pak Choi and Strawberries. Technically shouldn't mix such different plants together but YOLO. 
-<br/><img src='/images/hydroponicsTower.jpeg' alt='Hydroponic vertical tower with Basil in it' width = '500'>
+<br/><img src='images/hydroponicsTower.jpeg' alt='Hydroponic vertical tower with Basil in it' width = '500'>
 
 # Updates:
 Wont be here for the best part of the growing season because I'll be away on LTA :(, so no updates, maybe next year
