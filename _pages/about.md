@@ -19,4 +19,4 @@ I am a second year PhD student studying at Queen Mary University of London under
 
 Alongside my PhD studies, I work as a software developer, I have a particular interest in open-source software and open science, having contributed to several widely used Open-Source scientific software. This is discussed in more depth in my [CV](/cv)
 
-This website serves as both a professional website and an avocational blog and is very much a work in progress, if you notice anything broken [let me know](mailto:a.l.hart@qmul.ac.uk)
+This website serves as both a professional website and an avocational blog and is very much a work in progress, if you notice anything broken [let me know](mailto:a.l.hart@qmul.ac.uk) 
