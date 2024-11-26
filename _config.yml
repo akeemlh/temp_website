@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Akeem Hart"
-title_separator          : "-"
-name                     : &name "Akeem Hart"
+title                    : ""
+title_separator          : ""
+name                     : &name ""
 description              : &description "PhD Physics Student at QMUL"
-url                      : "https://akeemh.art/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://hydro-harmony.co.uk/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  /legacy_website # the subpath of your site, e.g. "/blog"
-repository               : "akeemlh/akeemlh.github.io"
+repository               : ""
 teaser                   :  # filename of teaser fallback teaser image placed in images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Akeem Hart"
-  avatar           : "profile.png"
-  bio              : "PhD Physics student at Queen Mary University of London, working with the DUNE and MINERνA neutrino experiments. Also a part-time software developer working with PPCL."
-  location         : "Queen Mary University of London, UK"
-  locationurl      : "https://www.qmul.ac.uk/spcs/staff/research-students/profiles/hart-akeem.html"
+  name             : ""
+  avatar           : ""
+  bio              : ""
+  location         : ""
+  locationurl      : ""
   employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "a.l.hart@qmul.ac.uk"
+  email            : ""
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -189,6 +189,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   projects:
+    output: true
+    permalink: /:collection/:path/
+  videos:
     output: true
     permalink: /:collection/:path/
 
