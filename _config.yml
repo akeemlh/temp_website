@@ -12,7 +12,7 @@ title_separator          : ""
 name                     : &name ""
 description              : &description "PhD Physics Student at QMUL"
 url                      : "https://hydro-harmony.co.uk/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  :  /legacy_website # the subpath of your site, e.g. "/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ""
 teaser                   :  # filename of teaser fallback teaser image placed in images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -58,6 +58,8 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : &twitter
+instagram:
+  username               : &instagram
 facebook:
   username               :
   app_id                 :
@@ -97,7 +99,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "akeemlh"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
@@ -110,12 +112,13 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "akeem_hart"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
+  instagram        : "hydroharmony.uk"
 
 
 # Reading Files
@@ -220,6 +223,15 @@ defaults:
   - scope:
       path: ""
       type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _setup-videos
+  - scope:
+      path: ""
+      type: posts
     values:
       layout: single
       author_profile: true
